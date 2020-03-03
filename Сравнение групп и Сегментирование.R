@@ -114,7 +114,3 @@ library(multcomp)
 income.aov <- aov(income ~ -1 + gender, data = seg.df)
 by.gender  <- glht(income.aov)
 plot(by.gender, xlab = "Income", main = "Mean Income with 95% CI")
-
-
-### СЕГМЕНТИРОВАНИЕ
-
